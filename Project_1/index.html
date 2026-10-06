@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <style>
+        body {
+            background-color: var(--background-color);
+        }
+    </style>
+<!-- [IN BODY....] -->
+
+    <!-- <header> -->
+    <header>
+
+        <!-- <img> from local images folder -->
+        <img width="200" src="images/pfp.jpg" alt="A picture of me">
+
+        <!-- <div> or more specific semantic tags -->
+        <div class="container">
+
+            <!-- <h1> -->
+            <h1>Mason Burzynski</h1>
+            <h2>Web & Mobile App Developer</h2>
+            
+            <p>
+                Welcome to my portfolio website. I am senior Computer Science 
+                student at Ball State University and a current software developer
+                at GIDEO where I build iOS and tvOS applications.
+            </p>
+
+            <!-- <a> with working link to a real website -->
+            <a href="https://github.com/MasonBurzy">Visit my GitHub!</a>
+
+            <!-- <nav> (optional – not required, no points) -->
+
+        <!-- Closing the container div -->    
+        </div>
+
+    <!-- Closing the header tag -->    
+    </header>
+
+    <!-- <main> or <section> -->
+    <main id="about">
+        <section id="skill-section">
+            <h2>My Skillset</h2>
+            <div class="wrapper">
+                <div class="skill-container">
+                    <h3>Front-End</h3>
+                    <ul>
+                        <li>HTML <progress max="100" value="90"></progress></li>
+                        <li>CSS <progress max="100" value="85"></progress></li>
+                        <li>JavaScript <progress max="100" value="75"></progress></li>
+                        <li>Swift <progress max="100" value="60"></progress></li>
+                    </ul>
+                </div>
+                <div class="skill-container">
+                    <h3>Back-End</h3>
+                    <ul>
+                        <li>Java <progress max="100" value="80"></progress></li>
+                        <li>Python <progress max="100" value="75"></progress></li>   
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- .class selector used in HTML -->
+        <div class="example-class">Dream Vacations</div>
+
+        <!-- #id selector used in HTML -->
+        <div id="example-id">This is a list of my top vacation places! (#1 shown below)</div>
+
+        <!-- <ul> or <ol> -->
+                <ul class="vacation-list">
+                    <li>Turks & Caicos</li>
+                    <li>Rome, Italy</li>
+                    <li>Paris, France</li>
+                </ul>
+
+        <!-- <img> from url -->
+        <img width="300" src="https://www.visittci.com/core/deserted-water-cay-beach_2048x1365.jpg" alt="Image of Turks & Caicos">
+    </main>
+
+    <!-- <footer> -->
+    <footer class="footer">
+        <p>&copy; 2026 Mason Burzynski. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

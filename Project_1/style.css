@@ -1,0 +1,128 @@
+:root {
+    --accent-color: #0071e3;
+    --primary-color: #1b1c1f;
+    --secondary-color: #101113;
+    --text-color: #d9d9d9;
+    --secondary-text-color: #7f8082;
+    --background-color: #343232;
+}
+
+
+/* CSS Selectors (in stylesheet) */
+/* Element selector */
+body {
+    margin: 25px;
+}
+
+h1 {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--accent-color);
+}
+
+/* Id selector */
+#about {
+    color: var(--text-color);
+    padding: 30px;
+}
+
+#example-id {
+    color: var(--primary-text-color);
+} 
+
+#skill-section {
+    padding: 0px 20px 60px 20px;
+}
+
+/* Class selector */
+.container {
+    color: var(--text-color);
+}
+
+.example-class {
+    color: var(--primary-text-color);
+}
+
+.footer {
+    color: var(--secondary-text-color);
+}
+
+.vacation-list {
+    color: var(--secondary-text-color);
+}
+
+.skill-container {
+    color: var(--text-color);
+}
+
+
+/* CSS Styling Properties */
+/* Font size */
+
+p {
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+/* Font color */
+
+.secondary-text {
+    color: var(--secondary-text-color);
+}
+
+/* Font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Padding */
+.width-100 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Margins */
+.margin-25 {
+    margin: 25px;
+}
+
+/* Background colors of elements */
+.background-accent {
+    background-color: var(--background-color);
+}
+
+/* :hover pseudo class */
+a:hover {
+    color: white;
+    background-color: var(--accent-color);
+}
+
+a:visited {
+    color: var(--text-color);
+}
+
+
+/* CSS Layout */
+/* Flexbox used for layout */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: var(--background-color);
+}
+
+/* Grid used for layout */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
